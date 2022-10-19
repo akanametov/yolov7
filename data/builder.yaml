@@ -1,0 +1,12 @@
+# custom dataset http://cocodataset.org
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: data/dataset/train  # 2722
+val: data/dataset/valid  # 300
+test: data/dataset/test  # 200
+
+# number of classes
+nc: 3
+
+# class names
+names: ["vest", "helmet", "person"]
