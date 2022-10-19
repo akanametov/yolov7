@@ -86,7 +86,7 @@ Losses and mAP:
 Confusion matrix:
 <div align="center">
     <a href="./">
-        <img src="./figure/yolov7_tiny/confusion_matrix.png" width="50%"/>
+        <img src="./figure/yolov7_tiny/confusion_matrix.png" width="70%"/>
     </a>
 </div>
 
@@ -98,7 +98,7 @@ Data preparation
 bash scripts/get_dataset.sh
 ```
 
-* Download [dataset](https://drive.google.com/file/d/1BKMXnyPFT6uFWCSbyrZ7r5st9bCQwb2T/view?usp=sharing) and pretrained [yolov7-tiny.pt (https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)
+* Download [dataset](https://drive.google.com/file/d/1BKMXnyPFT6uFWCSbyrZ7r5st9bCQwb2T/view?usp=sharing) and pretrained [yolov7-tiny.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)
 
 Single GPU training
 
