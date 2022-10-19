@@ -137,27 +137,6 @@ python train.py --epochs 100 --workers 4 --device 0 --batch-size 32 --data data/
 }
 ```
 
-
-## Teaser
-
-Yolov7-semantic & YOLOv7-panoptic & YOLOv7-caption
-
-<div align="center">
-    <a href="./">
-        <img src="./figure/tennis.jpg" width="24%"/>
-    </a>
-    <a href="./">
-        <img src="./figure/tennis_semantic.jpg" width="24%"/>
-    </a>
-    <a href="./">
-        <img src="./figure/tennis_panoptic.png" width="24%"/>
-    </a>
-    <a href="./">
-        <img src="./figure/tennis_caption.png" width="24%"/>
-    </a>
-</div>
-
-
 ## Acknowledgements
 
 <details><summary> <b>Expand</b> </summary>
