@@ -57,7 +57,7 @@ python detect.py --weights yolov7-tiny-builder.pt --conf 0.25 --img-size 640 --s
 
 <div align="center">
     <a href="./">
-        <img src="./figure/yolov7_tiny/example.jpg" width="80%"/>
+        <img src="./figure/yolov7_tiny/example.jpg" width="90%"/>
     </a>
 </div>
 
