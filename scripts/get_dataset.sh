@@ -1,16 +1,11 @@
-#!/bin/bash
-# COCO 2017 dataset http://cocodataset.org
-# Download command: bash ./scripts/get_coco.sh
+#!/usr/bin/env bash
 
-Download/unzip labels
-cd data # unzip directory
-url=https://drive.google.com/uc?id=1BKMXnyPFT6uFWCSbyrZ7r5st9bCQwb2T
-echo 'Downloading dataset'
-gdown https://drive.google.com/uc?id=1BKMXnyPFT6uFWCSbyrZ7r5st9bCQwb2T
-unzip dataset.zip
-rm dataset.zip
-cd ..
-echo 'Making splits'
+echo "Donwloading dataset ..."
+
+wget --load-cookies /tmp/cookies.txt "https://drive.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://drive.google.com/uc?export=download&id=${1:-1BKMXnyPFT6uFWCSbyrZ7r5st9bCQwb2T}' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=${1:-1BKMXnyPFT6uFWCSbyrZ7r5st9bCQwb2T}" -O data/dataset.zip && unzip data/dataset.zip -d data && rm -rf /tmp/cookies.txt 
+
+echo 'Making splits ...'
+
 python scripts/make_split.py \
     --dataset_path data/dataset \
     --valid_size 300 \
