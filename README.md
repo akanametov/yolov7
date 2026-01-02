@@ -97,8 +97,9 @@ Data preparation
 ``` shell
 bash scripts/get_dataset.sh
 ```
-
+<!---
 * Download [dataset](https://drive.google.com/file/d/1BKMXnyPFT6uFWCSbyrZ7r5st9bCQwb2T/view?usp=sharing) and pretrained [yolov7-tiny.pt](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)
+-->
 
 Single GPU training
 
